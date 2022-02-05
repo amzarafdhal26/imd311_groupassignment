@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">MALAYSIAN TRADITIONAL FOOD</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="G1.jpg" alt="Sandwich" style="width:100%">
+      <h3>Nasi Lemak</h3>
+      <p>nasi lemak is served with a hot spicy sauce (sambal), and usually includes various garnishes, including fresh cucumber slices, small fried anchovies (ikan bilis), roasted peanuts, and hard-boiled or fried egg..</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="G2.jpg" alt="Steak" style="width:100%">
+      <h3>Satay</h3>
+      <p>Satay is a Southeast Asian dish of seasoned, skewered and grilled meat, served with a sauce. The earliest preparations of satay is believed to have originated in Javanese cuisine..</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="G3.jpg" alt="Cherries" style="width:100%">
+      <h3>Rendang</h3>
+      <p>Rendang is often described as a rich dish of meat most commonly beef (rendang daging) that has been slow cooked and braised in a coconut milk seasoned with a herb and spice mixture..</p>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="g4.jpg" alt="Pasta and Wine" style="width:120%">
+      <h3>Keropok Lekor</h3>
+      <p>Keropok lekor (Malay pronunciation) or fish sausage is a traditional Malay fish cracker snack originating from the state of Terengganu, Malaysia. It is made from fish and sago flour and seasoned with salt and sugar.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="G5.jpg" alt="Popsicle" style="width:100%">
+      <h3>Murtabak</h3>
+      <p>Murtabak is often described as spicy folded omelette pancake with bits of vegetables. The most common form of murtabak is made from pan fried crepes usually stuffed with beaten eggs, chopped leeks, chives, or green onion (scallions) and minced meat, which is then folded and cut to squares.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="G6.jpg" alt="Salmon" style="width:80%">
+      <h3>Char Kwuey Teow</h3>
+      <p>Char Kuey Teow is basically flat rice noodles stir-fried with shrimp, bloody cockles, Chinese lap cheong (sausage), eggs, bean sprouts, and chives in a mix of soy sauce.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="G7.jpeg" alt="Sandwich" style="width:100%">
+      <h3>Laksa Penang</h3>
+      <p>Penang Laksa is a noodle dish in spicy fish broth topped with various shredded vegetables. Give me a choice of Penang Assam Laksa and Curry. nothing gives us a better satisfaction than a bowl of piping hot Laksa with cut bird’s-eye chilies and dollops of pungent heh ko (Penang-style prawn paste).</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="G8.jpg" alt="Croissant" style="width:100%">
+      <h3>Nasi Kandar</h3>
+      <p>Nasi kandar is a popular northern Malaysian dish, which originates from Penang. It was popularized by Tamil Muslim traders from India. It is a meal of steamed rice which can be plain or mildly flavored, and served with a variety of curries and side dishes.</p>
+    </div>
+  </div>
+
+  
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>What is unique and distinctive about Malaysian cuisine?</h3><br>
+    <img src="G9.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="600" height="400">
+    <div class="w3-padding-32">
+      <h4><b>Malaysian Unique Food</b></h4>
+      <h6><i>"People who love to eat are always the best people"</i></h6>
+      <p>As a result, Malaysian food is very mixed, with influences from many different cultures from around the world. The food is mainly influenced by Thai, Chinese, Indonesian and Indian cuisine. Malaysian flavours are a unique combination of sweet, sour, rich and spicy, combined in a way unlike any other country's cuisine. As a country that brings together many different cultures, the food is highly varied. Malaysian flavours are a unique combination of sweet, sour, rich and spicy, combined in a way unlike any other country’s cuisine.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3></h3>
+      
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="G10.jpeg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">AZIM RAHIMEE</span><br>
+          <span>Art Direction</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="G11.jpeg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">AMZAR AFDHAL</span><br>
+          <span>Designer</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
